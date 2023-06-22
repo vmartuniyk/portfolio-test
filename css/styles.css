@@ -288,12 +288,7 @@ nav ul li:hover ul.dropdown {
   text-align: left;
 }
 
-.btn-primary {
-  display: inline-block;
-  border-radius: 0;
-  background-color: #cd0021;
-  border: #fff;
-}
+
 
 .btn-primary a:link,
 a:visited {
@@ -697,16 +692,21 @@ cite {
 .btn {
   margin: 20px 5px 0 0;
   text-decoration: none;
-  font-size: 0.9rem;
   letter-spacing: 0.5px;
   display: inline-block;
   padding: 10px 20px;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  color: white;
-  /*color: rgb(207, 198, 198);*/
+  color: rgb(207, 198, 198);
   background: #a0142b;
   border-radius: 0%;
+}
+.btn-primary {
+  display: inline-block;
+  border-radius: 0;
+  background-color: #cd0021;
+  border: #fff;
+  color: blueviolet;
 }
 
 .btn:link {
